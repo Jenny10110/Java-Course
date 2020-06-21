@@ -9,7 +9,7 @@ public class MyMath {
     public int arrPositivInteger (int [] intgerArr){
         int positivSum = 0;
         for (int i = 0;i<intgerArr.length;i++){
-            if(intgerArr[i]>0) {possitivSum++;}
+            if(intgerArr[i]>0) {positivSum++;}
         }
         return(positivSum);
     }
