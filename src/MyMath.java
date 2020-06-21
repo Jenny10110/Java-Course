@@ -7,11 +7,11 @@ public class MyMath {
         return(sum);
     }
     public int arrPositivInteger (int [] intgerArr){
-        int possitivSum = 0;
+        int positivSum = 0;
         for (int i = 0;i<intgerArr.length;i++){
             if(intgerArr[i]>0) {possitivSum++;}
         }
-        return(possitivSum);
+        return(positivSum);
     }
     public int arrNegativInteger (int [] intgerArr){
         int negativSum = 0;
